@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+.project, .team-member, .testimony {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project img, .team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3, .team-member h3, .testimony h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.project p, .team-member p, .testimony p {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+#intro, #about-section, #projects-section, #mission-section, #testimonies-section {
+    margin-top: 30px;
+}
+
+#intro h2, #about-section h2, #projects-section h2, #mission-section h2, #testimonies-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
